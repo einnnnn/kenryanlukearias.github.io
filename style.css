@@ -1,0 +1,295 @@
+
+.box {
+    background:red;
+    height:100%;
+}
+
+body {
+    display: block;
+    touch-action: manipulation;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif 
+}
+
+ul {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.new { font-style: italic;
+    font-weight: bold;
+}
+
+    .menu {
+        padding: 40px 1px 40px 1px;
+        background: #242520;
+        border-radius: 50px;
+        margin: auto;
+        width: 50%;
+
+    }
+    
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .menu ul li {
+        background-color: #242520;
+        list-style: none;
+        margin: 0 20px;
+        display: inline;
+        border: #393A36 2px solid;
+        padding: 10px 5px 10px 5px;
+        border-radius: 25px;
+
+    }
+    
+    .menu ul li a {
+        color: white;
+        font: 1em;
+        line-height: 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 20px ;
+        display: inline;
+        font-weight: 700;
+        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+        border-radius: 25px;
+        
+    
+        background: linear-gradient(to center, white 50%, #393A36 50%) right;
+        background-size: 200%;
+        transition: .3s ease-in-out
+    }
+    
+    .menu ul li :hover  {
+        background-color: white;
+        display: inline;
+        color: #393A36;
+        background-position: left;
+    }
+.screen {
+    display: block;
+    width: 1890px;
+    height: 1080px;    
+    padding-bottom: 0px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    background-attachment: fixed;
+}
+
+.bg2 {
+    background-image: url(images/about\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.bg3 {
+    background-image: url(images/Reviews\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+    width: 1890px;
+
+    background-attachment: fixed;
+    padding-bottom: 1000px;             
+}
+
+
+.raillogo {
+    display: block;
+    position: absolute;
+    left: 1px;
+    top: 0.5px;
+    margin-top: 10px ;
+    width: 250px;
+    height: 125px;
+}
+
+#bgmusic {
+    color: #393A36;
+    display: block;
+    position: absolute;
+    margin-left: 950px;
+    
+    margin-top: 0;
+}
+
+.hometext {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    filter: drop-shadow(0.60em 0.60em 1em);
+    background-color: transparent;
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+    -moz-animation: glowing 1s ease-in-out infinite alternate;
+    animation: glowing 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowing {
+    from {
+      box-shadow: 0 0 10px white, 0 0 20px #fff, 0 0 20px #393A36, 0 0 20px #242520, 0 0 20px black, 0 0 20px gray, 0 0 20px whitesmoke;
+    }
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 40px black, 0 0 40px white, 0 0 40px #393A36, 0 0 40px #242520, 0 0 40px black, 0 0 40px #393A36;
+    }
+}
+
+.brief {
+    color: white;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    text-align: left;
+    margin-left: 260px;
+    margin-right: 260px;
+    display: block;
+    font-weight: 350;
+    font-size: 125%;
+    padding-bottom: 50px;
+}
+
+.brief2 {
+    color: white;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 220px;
+    display: block;
+    font-weight: 200;
+    font-size: 125%;
+}
+
+.headings {
+    color: white;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    text-align: left;
+    margin-left: 260px;
+    margin-right: 260px;
+    display: block;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.colorblock {
+    background-color: #242520;
+    width: 250px;
+    height: 250px;
+    font-weight: bold;
+    border-top: 300px; 
+    display: inline-block;
+}
+
+
+
+.div2 {
+    height: 500px;
+    width: 1883px;
+    display: block;
+    margin-top: 50px;    
+    margin-bottom: 50px;
+}
+
+#opacity {
+    background-color: #242520;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    background: linear-gradient(45deg, #242520, #393A36, rgb(17, 17, 17), rgb(85, 73, 73));
+    animation: color 12s ease-in-out infinite;
+    background-size: 300%;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+
+
+
+
+
+.rev-section{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+    max-width: 1100px;
+    text-align: center;
+    
+  }
+  
+  .reviews{
+    margin-bottom: 0px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .review{
+    margin: 5px;
+    min-width: 0px;
+    flex: 1;
+  }
+  
+  .head-review{
+    margin: 1.75rem auto;
+    width: 150px;
+    height: 10px;
+  }
+  
+  .body-review{
+    background-color: #242520;
+    padding: 45px;  
+    box-shadow: 2px 2px 10px 3px #393A36;
+    transition: transform 1s ease-in;
+    background: linear-gradient(to center, white 50%, #393A36 50%) right;
+    background-size: 200%;
+    transition: 0.7s ease-in-out
+    
+  }
+
+  .body-review:hover  {
+    transform: translateY(-10px);
+    background-color: whitesmoke;
+    display: inline-block;
+    color: #393A36;
+    background-position: left;
+    
+}
+    .body-review:hover .name-review {
+        color: black;
+    }
+
+    .body-review:hover .desc-review {
+        color: black;
+    }
+
+
+
+  .name-review{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .desc-review{
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+  }
+  
