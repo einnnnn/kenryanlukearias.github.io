@@ -269,11 +269,11 @@ ul {
     background-position: left;
     
 }
-    .bodyreview:hover .name-review {
+    .bodyreview:hover .namereview {
         color: black;
     }
 
-    .bodyreview:hover .desc-review {
+    .bodyreview:hover .descreview {
         color: black;
     }
 
