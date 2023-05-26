@@ -224,7 +224,7 @@ ul {
 
 
 
-.rev-section{
+.revsection{
     margin-left: 25%;
     margin-right: 25%;
     display: inline-block;
@@ -244,13 +244,13 @@ ul {
     flex: 1;
   }
   
-  .head-review{
+  .headreview{
     margin: 1.75rem auto;
     width: 150px;
     height: 10px;
   }
   
-  .body-review{
+  .bodyreview{
     background-color: #242520;
     padding: 45px;  
     box-shadow: 2px 2px 10px 3px #393A36;
@@ -261,7 +261,7 @@ ul {
     
   }
 
-  .body-review:hover  {
+  .bodyreview:hover  {
     transform: translateY(-10px);
     background-color: whitesmoke;
     display: inline-block;
@@ -269,17 +269,17 @@ ul {
     background-position: left;
     
 }
-    .body-review:hover .name-review {
+    .bodyreview:hover .name-review {
         color: black;
     }
 
-    .body-review:hover .desc-review {
+    .bodyreview:hover .desc-review {
         color: black;
     }
 
 
 
-  .name-review{
+  .namereview{
     font-size: 1.5rem;
     color: white;
     margin-bottom: 10px;
@@ -287,7 +287,7 @@ ul {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  .desc-review{
+  .descreview{
     line-height: 1.5rem;
     letter-spacing: 1px;
     color: rgb(150, 150, 150);
